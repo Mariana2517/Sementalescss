@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:wght@300&display=swap');
+/* fondo */
+
+body {
+
+    background-image: linear-gradient(to right, rgba(255, 230, 255, 0.7) 39.06%, rgba(187, 133, 166, 0.7) 84.9%);
+    background-size: cover;
+    margin: 0;
+}
+
+/* banner */
+
+.nav-content {
+    position: absolute;
+    width: 100%;
+    height: 293px;
+    left: 0px;
+    top: 0px;
+
+    background: #BB85A6;
+    margin-top: 5vh;
+}
+
+/* NOSOTROS BANNER */
+.text h1 {
+
+    position: absolute;
+    width: 360px;
+    height: 66px;
+    left: 780px;
+    top: 140px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    /* or 114% */
+    text-align: center;
+    color: #FFFFFF;
+
+
+
+}
+
+/* logo */
+.logo img {
+    position: absolute;
+    width: 206px;
+    height: 41px;
+    left: 23px;
+    top: 74px;
+}
+
+/* mensaje banner. */
+.text h2 {
+
+    position: absolute;
+    width: 555px;
+    height: 37px;
+    left: 682px;
+    top: 260px;
+    
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1em;
+
+}
+
+.a1 {
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 179px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+ul a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.a2 {
+
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 280px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.a3 {
+
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 383px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.a4 {
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 505px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: px;
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+   /* Titulos*/
+.text h3{
+    position: absolute;
+    width: 1140px;
+    height: 70px;
+    left: 390px;
+    top: 340px;
+    
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 85px;
+    /* or 157% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+.text p{
+    position: absolute;
+    width: 1140px;
+    height: 66px;
+    left: 390px;
+    top: 450px;
+    
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+
+/* IMAGEN PRINCIPAL */
+.text img{
+
+    position: absolute;
+    width: 100%;
+    height: 1008px;
+    left: 0px;
+    top: 550px;
+}
+
+
+/* Recuadro */
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28%;
+    width: 100%;
+
+}
+
+.nosotros .text2 {
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+width: 1761px;
+height: 1427px;
+top: 1618px;
+
+background: #ffffff;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    box-shadow: 5px 5px 4px 2px #BB85A6;
+    border-radius: 17px;
+}
+
+
+/* Contenido del recuadro */
+
+.text2 h2{
+    position: absolute;
+width: 1250px;
+height: 81px;
+left: 334px;
+top: 5px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 85px;
+
+text-align: center;
+
+color: #000000;
+}
+
+.text2 .p1{
+    position: absolute;
+width: 1140px;
+height: 35px;
+left: 390px;
+top: 110px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+text-align: center;
+
+color: #000000;
+}
+
+/* linea negra hr */
+.text2 #primera{
+    position: absolute;
+width: 1651px;
+height: 0px;
+left: 136px;
+top: 170px;
+
+border: 1px solid #000000;
+}
+
+/* imagenes y textos centros comerciales */
+/* Primer cc cacique */
+.text2 .im1{
+    position: absolute;
+width: 645px;
+height: 452px;
+left: 198px;
+top: 200px;
+border-radius: 42px;
+}
+
+.text2 .p2{
+    position: absolute;
+width: 613px;
+height: 75px;
+left: 230px;
+top: 620px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 85px;
+/* or 212% */
+
+text-align: center;
+
+color: #000000;
+}
+
+/* segundo cc megamall */
+.text2 .im2{
+    position: absolute;
+width: 645px;
+height: 452px;
+left: 1073px;
+top: 200px;
+border-radius: 42px;
+
+}
+
+.text2 .p3{
+    position: absolute;
+width: 627px;
+height: 75px;
+left: 1073px;
+top: 620px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 85px;
+/* or 212% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+/* tercer cc la cuesta */
+
+.text2 .im3{
+    position: absolute;
+    width: 645px;
+    height: 452px;
+    left: 202px;
+    top: 780px;   
+    border-radius: 42px; 
+}
+
+.text2 .p4{
+    
+position: absolute;
+width: 613px;
+height: 75px;
+left: 234px;
+top: 1210px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 85px;
+text-align: center;
+color: #000000;
+}
+
+/* cuarto cc el dorado*/
+.text2 .im4{
+    position: absolute;
+width: 645px;
+height: 452px;
+left: 1077px;
+top: 780px;  
+border-radius: 42px;
+
+}
+
+
+
+.text2 .p5{
+    position: absolute;
+    width: 627px;
+    height: 75px;
+    left: 1077px;
+    top: 1210px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/*cuadro rosado*/
+.formula{
+    position: absolute;
+    width: 1140px;
+    height: 615px;
+    left: 389px;
+    top: 3200px;
+    
+    background: #E8C5E1;
+    box-shadow: 5px 5px 4px #BB85A6;
+}
+
+/*contenido rosado*/
+.formula h1{
+    position: absolute;
+width: 269px;
+height: 58px;
+left: 101px;
+top: 30px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 140%;
+
+text-transform: capitalize;
+
+color: #222222;
+
+}
+
+.formula .primero{
+    position: absolute;
+width: 548px;
+height: 19px;
+left: 102px;
+top: 100px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+
+color: #666666;
+
+}
+
+.text3 .nombre{
+    position: absolute;
+width: 67px;
+height: 28px;
+left: 101px;
+top: 174px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+
+text-transform: capitalize;
+
+
+color: #222222;
+}
+
+.text3 .correo{
+    position: absolute;
+width: 168px;
+height: 28px;
+left: 101px;
+top: 286px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+
+text-transform: capitalize;
+
+color: #222222;
+}
+
+.text3 .comentario{
+    position: absolute;
+width: 918px;
+height: 100px;
+left: 102px;
+top: 403px;
+
+}
+
+/* botones */
+
+.text3 .enviar{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 23px 55px 23px 50px;
+gap: 10px;
+
+position: absolute;
+width: 149px;
+height: 60px;
+left: calc(50% - 149px/2 - 394.5px);
+top: 539px;
+
+background: #BB85A6;
+}
+
+.text3 .reset{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 55px 23px 50px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 195px;
+    height: 60px;
+    left: calc(50% - 195px/2 - 177.5px);
+    top: 539px;
+    
+    background: #BB85A6;
+}
+
+.final{
+    position: absolute;
+width: 100%;
+height: 118px;
+left: 0px;
+top: 3989px;
+width: 100%;
+background: #BB85A6;
+}

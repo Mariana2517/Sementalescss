@@ -1,0 +1,1047 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:wght@300&display=swap');
+/* fondo */
+
+body {
+
+    background-image: linear-gradient(to right, rgba(255, 230, 255, 0.7) 39.06%, rgba(187, 133, 166, 0.7) 84.9%);
+    background-size: cover;
+    margin: 0;
+}
+
+/* banner */
+
+.nav-content {
+    position: absolute;
+    width: 100%;
+    height: 293px;
+    left: 0px;
+    top: 0px;
+
+    background: #BB85A6;
+    margin-top: 5vh;
+}
+
+/* catalogo */
+.title h1 {
+
+    position: absolute;
+    width: 360px;
+    height: 66px;
+    left: 780px;
+    top: 90px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    /* or 114% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+
+}
+
+/* logo */
+.logo img {
+    position: absolute;
+    width: 206px;
+    height: 41px;
+    left: 23px;
+    top: 74px;
+}
+
+/* mensaje banner. */
+.title h2 {
+
+    position: absolute;
+    width: 555px;
+    height: 37px;
+    left: 682px;
+    top: 215px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1em;
+
+}
+
+.a1 {
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 179px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+ul a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.a2 {
+    /* catalogo */
+
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 280px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.a3 {
+    /* CATALOGO */
+
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 383px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.a4 {
+    /* CONTACTO */
+
+
+    position: absolute;
+    width: 221px;
+    height: 66px;
+    left: 505px;
+    top: 55px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: px;
+    line-height: 80px;
+    /* or 571% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+/* primeros titulos. */
+
+.titulos h1 {
+    position: absolute;
+    width: 1140px;
+    height: 81px;
+    left: 390px;
+    top: 380px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 85px;
+    /* or 157% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.titulos p {
+
+
+    position: absolute;
+    width: 750px;
+    height: 66px;
+    left: 585px;
+    top: 490px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+
+
+
+/* primer contenedor. */
+.nueva-linea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28%;
+    width: 100%;
+
+}
+
+.nueva-linea .text1 {
+    background-color: #ffffff;
+    width: 1761px;
+    margin-top: 30px;
+    padding: 1em;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    box-shadow: 5px 5px 4px 2px #BB85A6;
+    border-radius: 17px;
+}
+
+
+/* Titulo y linea separadora. */
+.primera-linea h1 {
+    position: absolute;
+    width: 556px;
+    height: 81px;
+    left: 683px;
+    top: 600px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 85px;
+    /* or 157% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.primera-linea hr {
+    position: absolute;
+    width: 1651px;
+    height: 0px;
+    left: 134px;
+    top: 720px;
+
+    border: 1px solid #000000;
+}
+
+
+/* primer perfume. */
+.text1 img {
+    position: absolute;
+    width: 354px;
+    height: 452px;
+    left: 202px;
+    top: 781px;
+
+    background: url(victoria.jpg);
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+    border-radius: 39px;
+}
+
+
+.text1 h2 {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 260px;
+    top: 1223px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    /* or 212% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.text1 p {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 278px;
+    top: 1272px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.text1 a {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 278px;
+    top: 1320px;
+
+
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.text1 span {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 315px;
+    top: 1352px;
+
+}
+
+
+/* segundo perfume. */
+.text2 img {
+    position: absolute;
+    width: 349.27px;
+    height: 452px;
+    left: 591px;
+    top: 781px;
+
+    background: url(img2.jpg);
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+    border-radius: 39px;
+}
+
+
+.text2 h2 {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 647px;
+    top: 1223px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    /* or 212% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.text2 p {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 665px;
+    top: 1272px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.text2 a {
+    position: absolute;
+    width: 95px;
+    height: 75px;
+    left: 744px;
+    top: 1320px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.text2 span {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 720px;
+    top: 1352px;
+
+
+
+}
+
+/* Tercer perfume. */
+.text3 img {
+
+    position: absolute;
+    width: 344.46px;
+    height: 452px;
+    left: 983px;
+    top: 781px;
+
+    background: url(img3.jpg);
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+    border-radius: 39px;
+}
+
+
+.text3 h2 {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 1036px;
+    top: 1223px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    /* or 212% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.text3 p {
+
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 1054px;
+    top: 1272px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.text3 a {
+    position: absolute;
+    width: 95px;
+    height: 75px;
+    left: 1133px;
+    top: 1320px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    text-align: center;
+    color: #000000;
+}
+
+.text3 span {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1110px;
+    top: 1352px;
+
+}
+
+/* Cuarto perfume. */
+.text4 img {
+
+    position: absolute;
+    width: 343.56px;
+    height: 452px;
+    left: 1365px;
+    top: 781px;
+
+    background: url(img6.jpg);
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+    border-radius: 38px;
+}
+
+
+.text4 h2 {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 1418px;
+    top: 1223px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    /* or 212% */
+
+    text-align: center;
+    color: #000000;
+
+}
+
+.text4 p {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 1436px;
+    top: 1272px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.text4 a {
+    position: absolute;
+    width: 95px;
+    height: 75px;
+    left: 1515px;
+    top: 1320px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.text4 span {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1490px;
+    top: 1352px;
+}
+
+
+
+
+
+
+
+
+/* segundo contenedor. */
+
+.linea-frescura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+.linea-frescura .te1 {
+
+    width: 1761px;
+    height: 747px;
+    left: 77px;
+    top: 1482px;
+padding: 1em;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 4px #BB85A6;
+    border-radius: 17px;
+}
+
+
+/* Titulo y linea separadora. */
+.segunda-linea h1 {
+    position: absolute;
+width: 556px;
+height: 81px;
+left: 683px;
+top: 5px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 85px;
+/* or 157% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.segunda-linea hr {
+    position: absolute;
+    width: 1651px;
+    height: 0px;
+    left: 134px;
+    top: 140px;
+    
+    border: 1px solid #000000;
+}
+
+/* Primera crema */
+.te1 img {
+    position: absolute;
+    width: 354px;
+    height: 452px;
+    left: 202px;
+    top: 180px;
+    border-radius: 39px;
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+}
+
+
+.te1 h2 {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 260px;
+    top: 600px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    /* or 212% */
+    
+    text-align: center;
+    color: #000000;
+    
+}
+
+.te1 p {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 278px;
+    top: 650px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.te1 a {
+    position: absolute;
+    width: 95px;
+    height: 75px;
+    left: 357px;
+    top: 700px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.te1 span {
+    position: absolute;
+width: 51px;
+height: 51px;
+left: 330px;
+top: 734px;
+
+}
+
+
+
+/* segunda crema */
+.te2 img {
+    position: absolute;
+    width: 349.27px;
+    height: 452px;
+    left: 591px;
+    top: 180px;
+    border-radius: 39px;
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+}
+
+
+
+.te2 h2 {
+    position: absolute;
+width: 238px;
+height: 75px;
+left: 647px;
+top: 600px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 85px;
+/* or 212% */
+
+text-align: center;
+
+color: #000000;
+    
+}
+
+.te2 p {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 665px;
+    top: 650px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.te2 a {
+    position: absolute;
+    width: 95px;
+    height: 75px;
+    left: 744px;
+    top: 700px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.te2 span {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 720px;
+    top: 734px;
+}
+
+
+/* Tercera crema */
+.te3 img {
+position: absolute;
+width: 344.46px;
+height: 452px;
+left: 983px;
+top: 180px;
+    border-radius: 39px;
+filter: drop-shadow(5px 5px 4px #BB85A6);
+}
+
+
+.te3 h2 {
+    position: absolute;
+    width: 238px;
+    height: 75px;
+    left: 1036px;
+    top: 600px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    /* or 212% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.te3 p {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 1054px;
+    top: 650px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.te3 a {
+    position: absolute;
+    width: 95px;
+    height: 75px;
+    left: 1133px;
+    top: 700px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 85px;
+    /* or 425% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.te3 span {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1105px;
+    top: 734px;
+}
+
+
+
+
+
+
+/* Cuarta crema */
+.te4 img {
+    position: absolute;
+    width: 343.56px;
+    height: 452px;
+    left: 1365px;
+    top: 180px;
+    border-radius: 39px;
+    filter: drop-shadow(5px 5px 4px #BB85A6);
+    }
+    
+    
+    .te4 h2 {
+        position: absolute;
+        width: 238px;
+        height: 75px;
+        left: 1418px;
+        top: 600px;
+        
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 85px;
+        /* or 212% */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    .te4 p {
+        position: absolute;
+        width: 220px;
+        height: 75px;
+        left: 1436px;
+        top: 650px;
+        
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 85px;
+        /* or 425% */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    .te4 a {
+        position: absolute;
+        width: 95px;
+        height: 75px;
+        left: 1515px;
+        top: 700px;
+        
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 85px;
+       
+        text-align: center;
+        
+        color: #000000;
+        
+        
+    }
+    
+    .te4 span {
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        left: 1490px;
+        top: 734px;
+        
+    }
+
+
+
+
+.sea{
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    left: 850px;
+    top: 380px;
+    
+}
+
+.busca img{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 820px;
+    top: 380px;
+    
+
+}
+
+ /* Parte final */
+        
+.final{
+    position: absolute;
+
+height: 77px;
+left: 1px;
+top: 2405px;
+
+background: #BB85A6;
+}

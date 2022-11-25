@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:wght@300&display=swap');
+/* Rectangle 9 */
+
+body {
+
+background-image: linear-gradient(to right, rgba(255, 230, 255, 0.7) 39.06%, rgba(187, 133, 166, 0.7) 84.9%);
+background-size: cover;
+margin: 0;
+}
+
+/* img10 1 */
+.img-central img{
+
+    position: absolute;
+    width: 566px;
+    height: 797px;
+    left: 280px;
+    top: 405px;
+
+    background: url(img10.jpg);
+    box-shadow: 5px 5px 3px 3px #BB85A6;
+    border-radius: 42px;
+}
+
+/* boton */
+
+.imagen a{
+/*texto dentro del boton*/
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  left: 1102px;
+  top: 1040px;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 55px;
+  
+  text-align: center;
+  
+  color: #000000;
+text-decoration: none;
+
+  /*boton rosado*/
+  position: absolute;
+width: 358px;
+height: 58px;
+left: 1074px;
+top: 1021px;
+
+background: #BB85A6;
+border-radius: 61px;
+}
+
+/* ¿QUIERES SER LA MEJOR VERSIÓN DE TI? */
+
+.text h1 {
+position: absolute;
+width: 555px;
+height: 180px;
+left: 975px;
+top: 491px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 85px;
+/* or 157% */
+
+text-align: center;
+
+color: #000000;
+}
+
+  /* En tienda de sementales encontraras lo necesario para exaltar tu feminidad y la estrella que llevas en tu interior. Podrás encontrar diferentes aromas que te harán sentir unica, escoge el que te haga sentir mas segura a la hora de usarlo, aqui tienes nuestra recomendacion. */
+
+.text h2{
+
+position: absolute;
+width: 555px;
+height: 151px;
+left: 975px;
+top: 686px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+  /* Aroma floral: Rezaltará tu feminidad y delicadeza. Aroma fresco: Te hará sentir comoda. Aroma citrico: Llamará la atencion de todos. Aroma tropical: Rezaltará tu personalidad. */
+.text ul{
+
+position: absolute;
+width: 555px;
+height: 126px;
+left: 975px;
+top: 852px;
+
+/* body text */
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+/* or 27px */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+/* banner */
+
+.nav-content{
+  position: absolute;
+  width: 1920px;
+  height: 293px;
+  left: 0px;
+  top: 0px;
+
+  background: #BB85A6;
+  margin-top: 5vh;
+}
+
+ /* HOME */
+.title h1{
+  position: absolute;
+  width: 165px;
+  height: 66px;
+  left: 873px;
+  top: 90px;
+
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+  /* or 114% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+}
+
+/* logo */
+.logo img{
+position: absolute;
+width: 206px;
+height: 41px;
+left: 23px;
+top: 74px;
+}
+
+ /* Nos encanta poder resivirte en nuestr tienda virtual. */
+.title h2{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 555px;
+  height: 37px;
+  left: 682px;
+  top: 215px;
+
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+}
+
+.nav-links {
+    display: flex ;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1em;
+
+}
+
+.a1{
+
+position: absolute;
+width: 221px;
+height: 66px;
+left: 179px;
+top: 55px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 80px;
+/* or 571% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+ul a{
+  
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.a2{
+    /* BLOG */
+
+
+position: absolute;
+width: 221px;
+height: 66px;
+left: 280px;
+top: 55px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 80px;
+/* or 571% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.a3{
+    /* CATALOGO */
+
+
+position: absolute;
+width: 221px;
+height: 66px;
+left: 383px;
+top: 55px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 80px;
+/* or 571% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.a4{
+    /* CONTACTO */
+
+
+position: absolute;
+width: 221px;
+height: 66px;
+left: 505px;
+top: 55px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 80px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* parte final*/
+.final{
+  position: absolute;
+ 
+  height: 75px;
+  left: 0px;
+  top: 1307px;
+  width: 100%;
+  background: #BB85A6;
+}
